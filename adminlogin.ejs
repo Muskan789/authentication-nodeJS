@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+ 
+<html>
+  <head>
+    <title>Administrator</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <form action="/admin/checklogin" method="post">
+       
+        <table cellspacing='10'>
+            <caption><b><i>Admin Login</b></caption>
+           
+              
+            
+            <tr>
+            <td><b>Admin Id:</b></td>
+            <td><input type='text' name='adminid' size='30'></td>
+            </tr>
+
+            <tr>
+            <td><b>Password:</b></td>
+            <td><input type='password' name='password' size='30'></td>
+            </tr>
+            </table>
+            <input type='Submit' value='Login'>
+            <br>
+            
+            
+            
+             <font color='red'><%=result%></font></h3>
+         
+        
+            </form>
+            </body>
+            </html>
+
+
+
