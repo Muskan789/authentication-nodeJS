@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Tiles Interface</title>
+
+
+  
+    <title>Tiles Information</title>
+
+ 
+ </head>
+  <body>
+    <center>
+      <table cellspacing='20'>
+
+    <form action="/tiles/addtiles" method="POST" enctype="multipart/form-data">
+      <a href='/tiles/displayalltiles'>Display All Tiles</a>
+      
+      <hr>
+
+         
+            <h3 class="dark-grey-text text-center   "  >
+             <strong>Tiles Information</strong>
+           </h3>
+         
+         
+         <hr>
+          
+          <tr>
+          <td>Current Date:</td>
+          <td> <input type="date" name='cdate'></td>
+          </tr>
+
+          <tr>
+          <td> Batch No:</td:>
+          <td> <input type="text" name='batchno'></td>
+          </tr>
+
+        
+
+              <tr>
+                  <td>Grade:</td>
+                    <td><select name='grade' id='grade'>
+                        <option >-Select-</option>
+                      <option value='Premimum'>Premimum</option>
+                      <option value="Standard">Standard</option>
+                    </select></td>
+                  </tr>
+                  
+                <tr>
+                <td>Item Name:</td>
+                <td><select name='itemname' id='itemname'>
+                  <option>-Select-</option>
+                  <option value="Black">Black</option>
+                  <option value="White">White</option>
+                  <option value="Red">Red</option>
+                  <option value="Blue">Blue</option>
+                </select></td>
+                </tr>
+
+          <tr>
+              <td> Stock:</td>
+              <td> <input type="text" name='stock' id='stock'></td>
+              </tr>
+
+           <tr>
+               <td>Size:</td>
+               <td> <input type="text" name='size'></td>
+              </tr>
+              
+          <tr>
+               <td>Price:</td>
+              <td> <input type="text" name='price'></td>
+           </tr>
+
+           <tr>
+            <td>Photograph:</td>
+           <td> <input type="file" name='pic'></td>
+        </tr>
+
+      </center>
+  </table>
+  
+<br>
+
+<input type="submit" id="btn">
+
+</form>
+
+
+
+
+  </body>
+</html>
